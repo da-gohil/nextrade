@@ -15,4 +15,23 @@ target/
 *.swp
 *.swo
 .DS_Store
+Thumbs.db
 *.log
+logs/
+
+# IDE
+.vscode/
+*.suo
+*.user
+
+# Angular
+nextrade-dashboard/node_modules/
+nextrade-dashboard/dist/
+nextrade-dashboard/.angular/
+
+# Environment
+.env
+*.env.local
+
+# Docker volumes
+mysql_data/
