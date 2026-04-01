@@ -1,39 +1,18 @@
-# Java / Maven
 target/
 *.class
 *.jar
 *.war
-*.log
-.mvn/wrapper/maven-wrapper.jar
-
-# IDE
+*.ear
+*.zip
+*.tar.gz
+*.rar
 .idea/
 *.iml
-.vscode/
+.eclipse/
+.classpath
+.project
+.settings/
 *.swp
 *.swo
-.project
-.classpath
-.settings/
-
-# Node / Angular
-nextrade-dashboard/node_modules/
-nextrade-dashboard/dist/
-nextrade-dashboard/.angular/
-
-# OS
 .DS_Store
-Thumbs.db
-
-# Environment
-.env
-*.pem
-!src/main/resources/keys/*.pem
-
-# Docker
-*.pid
-
-# Logs
 *.log
-build-log-*
-overnight*.log
